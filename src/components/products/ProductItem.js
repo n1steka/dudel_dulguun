@@ -32,7 +32,7 @@ export default function ProductItem({ product }) {
     <div className="card">
       <Link href={`/product/${product.slug}`}>
         <Image
-          width={500}
+          width={400}
           height={300}
           src={`${product.image}`}
           alt={product.name}

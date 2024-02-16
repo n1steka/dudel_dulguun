@@ -42,9 +42,9 @@ export default function ProductScreen() {
         <div className="md:col-span-2">
           <Image
             src={product.image}
-            alt="details img"
-            width={640}
-            height={640}
+            alt="asdnjauishbui"
+            width={200}
+            height={200}
             layout="responsive"
           />
         </div>
@@ -55,9 +55,11 @@ export default function ProductScreen() {
             </li>
             <li className="text-xl">Үнэлгээ: {product.rating}</li>
             <li className="text-xl">Тоо ширхэг: {product.numReviews}</li>
-            <li className="text-xl">Тайлбар: {product.description}</li>
+            <li className="text-xl mt-12 text-gray-600">Тайлбар:
+              <p className="text-black">
+                {product.description}</p>  </li>
           </ul>
-          <div className="my-12 ">
+          {/* <div className="my-12 ">
             <div className="border shadow-lg  p-6 ">
               <p>Үнэ: {product.price}</p>
               <div
@@ -77,7 +79,7 @@ export default function ProductScreen() {
                 </button>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </Layouts>

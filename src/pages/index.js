@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Layouts from "@/components/Layouts";
 import data from "../../utils/data";
-import bgCover from "/public/images/cover.webp";
+import bgCover from "/public/images/bgCover.jpeg";
 import ProductItem from "@/components/products/ProductItem";
 
 export default function Home() {
