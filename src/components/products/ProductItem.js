@@ -44,14 +44,6 @@ export default function ProductItem({ product }) {
           <h2 className="text-lg">{product.slug}</h2>
         </Link>
         <p className="mb-2">{product.brand}</p>
-        <p className="">{product.price}</p>
-        <button
-          onClick={addCart}
-          className="primary-button mt-4 border p-2 rounded-md bg-yellow-300"
-          type="button"
-        >
-          Сагсан хийх
-        </button>
       </div>
     </div>
   );
